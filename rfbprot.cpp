@@ -1,4 +1,11 @@
 using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+
 namespace MoeVNC;
 {
 	//Defines constants and methods for RFB protocol
