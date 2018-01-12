@@ -1,3 +1,4 @@
+using System;
 namespace MoeVNC;
 {
 	//Defines constants and methods for RFB protocol
@@ -67,8 +68,10 @@ namespace MoeVNC;
         public const int RHYPER             = 0xFFEE;
         //End Constants
 
-        private int verFirst;  //First digit of version #
-        private int verLast;   //Second digit of version #
+        private int verMajor;  //First digit of version #
+        private int verMinor;   //Second digit of version #
+
+        private TcpClient client;
 
 	};
 }
