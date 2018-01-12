@@ -78,7 +78,7 @@ namespace MoeVNC;
         private int verMajor;  //First digit of version #
         private int verMinor;   //Second digit of version #
 
-        private TcpClient client;
+        private TcpClient() client;
 
 	};
 }
