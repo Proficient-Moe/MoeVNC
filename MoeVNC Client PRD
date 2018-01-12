@@ -10,9 +10,9 @@ Alexander Churchill (Proficient-Moe Lead Developer)
 
 Project is targeted towards users looking for a more complete remote viewing experience.
 
-Product will be a fully functional VNC client with aditional features and a clean desktop UI
+Product will be a fully functional VNC client with additional features and a clean desktop UI
 
 Requirements:
 	Connectivity with existing VNC servers
 	Ability to view and control remote system that is hosting a VNC server
-	Ability to send and recieve files from remote system if there is an FTP server running on remote system
+	Ability to send and receive files from remote system if there is an FTP server running on remote system
