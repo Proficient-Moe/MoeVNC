@@ -80,5 +80,11 @@ namespace MoeVNC;
 
         private TcpClient() client;
 
+        //Connects to Specified IP address and port
+        void RFBconnect(char[15] ip, int port);
+        {
+        	client.Connect(ip,port);
+        };
+
 	};
 }
